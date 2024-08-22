@@ -1,0 +1,54 @@
+
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<tv>
+    <channel id="ssc1">
+        <display-name>SSC 1</display-name>
+    </channel>
+    <channel id="ssc2">
+        <display-name>SSC 2</display-name>
+    </channel>
+    <channel id="ssc3">
+        <display-name>SSC 3</display-name>
+    </channel>
+    <channel id="ssc4">
+        <display-name>SSC 4</display-name>
+    </channel>
+
+    <programme channel="ssc1" start="20231001150000 +0000" stop="20231001160000 +0000">
+        <title>مباراة كرة القدم: فريق أ ضد فريق ب</title>
+        <desc>مباراة كرة القدم بين فريق أ وفريق ب في الدوري المحلي.</desc>
+    </programme>
+    <programme channel="ssc2" start="20231001170000 +0000" stop="20231001180000 +0000">
+        <title>تحليل رياضي</title>
+        <desc>تحليل لأداء الفرق والمباريات الأخيرة.</desc>
+    </programme>
+    <programme channel="ssc3" start="202482263090000 +0000" stop="20231001200000 +0000">
+        <title>مباراة كرة السلة: فريق ج ضد فريق د</title>
+        <desc>مباراة كرة السلة بين فريق ج وفريق د في البطولة المحلية.</desc>
+    </programme>
+    <programme channel="ssc4" start="20231001210000 +0000" stop="20231001220000 +0000">
+        <title>برنامج رياضي: استوديو التحليل</title>
+        <desc>استوديو تحليل لمباريات اليوم.</desc>
+    </programme>
+
+    <!-- تكرار البرامج لبقية الأسبوع -->
+    <programme channel="ssc1" start="20241002150000 +0000" stop="20241002160000 +0000">
+        <title>مباراة كرة القدم: فريق هـ ضد فريق و</title>
+        <desc>مباراة كرة القدم بين فريق هـ وفريق و في الدوري المحلي.</desc>
+    </programme>
+    <programme channel="ssc2" start="20231002170000 +0000" stop="20231002180000 +0000">
+        <title>عرض خاص عن البطولات</title>
+        <desc>عرض خاص يستعرض البطولات المحلية والدولية.</desc>
+    </programme>
+    <programme channel="ssc3" start="20231002190000 +0000" stop="20231002200000 +0000">
+        <title>مباراة كرة السلة: فريق ز ضد فريق ح</title>
+        <desc>مباراة كرة السلة بين فريق ز وفريق ح في البطولة المحلية.</desc>
+    </programme>
+    <programme channel="ssc4" start="20231002210000 +0000" stop="20231002220000 +0000">
+        <title>برنامج تحليلي عن الدوري</title>
+        <desc>تحليل لمباريات الدوري وآخر الأخبار الرياضية.</desc>
+    </programme>
+
+    
